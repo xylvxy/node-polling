@@ -11,8 +11,8 @@
     "name": "James Loo",
     "email": "xy.lvxy@gmail.com"
   },
-  "main": "httpConn.js",
-  "version": "0.0.1",
+  "main": "index.js",
+  "version": "0.0.3",
   "dependencies": {
     "node-uuid": ">=1.4.1"
   }
