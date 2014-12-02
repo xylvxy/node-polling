@@ -1,0 +1,21 @@
+{
+  "name": "chatting services test",
+  "description": "KTPLAY Chatting Serveice Conn Server",
+  "homepage": "http://www.ktplay.com",
+  "keywords": [
+    "KTPLAY",
+    "chat",
+    "server"
+  ],
+  "author": {
+    "name": "Lvxiaoyang(Jame Loo)",
+    "email": "lvxiaoyang@ktplay.com"
+  },
+  "main": "app.js",
+  "version": "0.0.1",
+  "dependencies": {
+    "faye-websocket": ">=0.7.3",
+    "underscore": ">=1.7.0",
+    "mocha": ">=2.0.1"
+  }
+}
