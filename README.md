@@ -13,6 +13,7 @@ HttpConn.on('conn', function(uid, queryObj, data){
         HttpConn.SendByUid(uid, 'hello,world');
     }, 3000);
 });
+
 HttpConn.on('close', function(uid){
     console.log('event_close:', JSON.stringify(arguments));
 });
