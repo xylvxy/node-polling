@@ -1,21 +1,19 @@
 {
-  "name": "chatting services test",
-  "description": "KTPLAY Chatting Serveice Conn Server",
-  "homepage": "http://www.ktplay.com",
+  "name": "node-polling",
+  "description": "High performance long polling server, Single timer + Event base",
+  "homepage": "https://github.com/xylvxy/node-polling/",
   "keywords": [
-    "KTPLAY",
-    "chat",
-    "server"
+    "polling",
+    "long polling",
+    "polling"
   ],
   "author": {
-    "name": "Lvxiaoyang(Jame Loo)",
-    "email": "lvxiaoyang@ktplay.com"
+    "name": "James Loo",
+    "email": "xy.lvxy@gmail.com"
   },
-  "main": "app.js",
+  "main": "httpConn.js",
   "version": "0.0.1",
   "dependencies": {
-    "faye-websocket": ">=0.7.3",
-    "underscore": ">=1.7.0",
-    "mocha": ">=2.0.1"
+    "node-uuid": ">=1.4.1"
   }
 }

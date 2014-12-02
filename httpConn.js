@@ -12,7 +12,7 @@
     var Url  = require('url');
     function HttpConnMgt(){
         EventEmitter.call(this);
-        this._httpConnAry = [];//[uid:{req:*, res:*, t:unix_time}, ....]
+        this._httpConnAry = [];//{uid:{req:*, res:*, t:unix_time}, ....}
         this._timer = null;
         this._timeout = 15000;
     }
@@ -29,9 +29,12 @@
         clearInterval(this._timer);
         this._timer =  null;
     };
-    HttpConnMgt.prototype.SendByCid = function(cid, dataStr){
-        if(this._httpConnAry[uid])
+    HttpConnMgt.prototype.SendByUid = function(uid, dataStr){
+        if(this._httpConnAry[uid]){
             this._httpConnAry[uid].res.end(dataStr);
+            delete this._httpConnAry[uid];
+            this.emit('close', uid);
+        }
     };
     HttpConnMgt.prototype.onTimer = function(){
         //console.log('timer', Object.keys(this._httpConnAry));
