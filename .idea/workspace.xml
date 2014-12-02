@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f8f637d-f30b-408a-9e13-1a1a3eb1104a" name="Default" comment="" />
+    <list default="true" id="8f8f637d-f30b-408a-9e13-1a1a3eb1104a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-uuid/.npmignore" afterPath="$PROJECT_DIR$/node_modules/node-uuid/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/app.js" afterPath="$PROJECT_DIR$/test/app.js" />
+    </list>
     <ignored path="chatServices.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +26,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".npmignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".npmignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/node-uuid/.npmignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="875">
+            <state line="2" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="152">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="26" selection-start="63" selection-end="63" vertical-scroll-proportion="0.04342857" vertical-offset="0" max-vertical-offset="875">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/manager/msgProc.js" />
-        <option value="$PROJECT_DIR$/conn/connMgt.js" />
         <option value="$PROJECT_DIR$/chat/IManager.js" />
         <option value="$PROJECT_DIR$/chat/chatSrv.js" />
         <option value="$PROJECT_DIR$/conn/chatClt.js" />
@@ -71,6 +83,8 @@
         <option value="$PROJECT_DIR$/conn/app.js" />
         <option value="$PROJECT_DIR$/../test/client.js" />
         <option value="$PROJECT_DIR$/conn/httpConn.js" />
+        <option value="$PROJECT_DIR$/node_modules/node-uuid/.npmignore" />
+        <option value="$PROJECT_DIR$/test/app.js" />
       </list>
     </option>
   </component>
@@ -105,6 +119,40 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatServices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatServices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node-polling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatServices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node-polling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Default">
           <PATH>
@@ -180,44 +228,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatServices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatServices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatServices2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatServices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatServices2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node-uuid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,18 +236,10 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -246,6 +248,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -331,9 +341,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495238" sideWeight="0.6703418" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -359,53 +369,46 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../test/node_modules/simpleio/lib/shared/Multiplexer.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/node-uuid/.npmignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="37" selection-start="472" selection-end="472" vertical-scroll-proportion="0.37995338" vertical-offset="73" max-vertical-offset="1729">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="152">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test/node_modules/simpleio/lib/shared/Multiplexer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="37" selection-start="472" selection-end="472" vertical-scroll-proportion="0.37995338" vertical-offset="73" max-vertical-offset="1729" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../test/node_modules/simpleio/lib/client/Client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="573" selection-end="573" vertical-scroll-proportion="0.475" vertical-offset="0" max-vertical-offset="4598">
-          <folding />
-        </state>
+        <state line="22" column="0" selection-start="573" selection-end="573" vertical-scroll-proportion="0.475" vertical-offset="0" max-vertical-offset="4598" />
       </provider>
     </entry>
     <entry file="file://C:/wamp/www/chat/simpleio/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="4" selection-start="413" selection-end="413" vertical-scroll-proportion="0.47556615" vertical-offset="0" max-vertical-offset="1349">
-          <folding />
-        </state>
+        <state line="21" column="4" selection-start="413" selection-end="413" vertical-scroll-proportion="0.47556615" vertical-offset="0" max-vertical-offset="1349" />
       </provider>
     </entry>
     <entry file="file://C:/wamp/www/chat/simpleio/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880" />
       </provider>
     </entry>
     <entry file="file://C:/wamp/www/chat/simpleio/examples/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="48" selection-start="966" selection-end="1049" vertical-scroll-proportion="0.64772725" vertical-offset="0" max-vertical-offset="1938">
-          <folding />
-        </state>
+        <state line="30" column="48" selection-start="966" selection-end="1049" vertical-scroll-proportion="0.64772725" vertical-offset="0" max-vertical-offset="1938" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../test/node_modules/simpleio/examples/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="29" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.41931817" vertical-offset="239" max-vertical-offset="1843">
-          <folding />
-        </state>
+        <state line="32" column="29" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.41931817" vertical-offset="239" max-vertical-offset="1843" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../test/explq.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="374" selection-end="374" vertical-scroll-proportion="0.28228572" vertical-offset="0" max-vertical-offset="875">
-          <folding />
-        </state>
+        <state line="13" column="0" selection-start="374" selection-end="374" vertical-scroll-proportion="0.28228572" vertical-offset="0" max-vertical-offset="875" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../chatServices/chat/chatSrv.js">
@@ -417,9 +420,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../chatServices/conn/chatClt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="866" selection-end="914" vertical-scroll-proportion="0.456" vertical-offset="0" max-vertical-offset="2375">
-          <folding />
-        </state>
+        <state line="22" column="5" selection-start="866" selection-end="914" vertical-scroll-proportion="0.456" vertical-offset="0" max-vertical-offset="2375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../test/client.js">
@@ -432,16 +433,23 @@
     <entry file="file://C:/wamp/www/chat/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="31" selection-start="869" selection-end="869" vertical-scroll-proportion="0.20503597" vertical-offset="228" max-vertical-offset="5035">
-          <folding>
-            <marker date="1416807209096" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/node-uuid/.npmignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="875">
+        <state line="2" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="152">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="26" selection-start="63" selection-end="63" vertical-scroll-proportion="0.04342857" vertical-offset="0" max-vertical-offset="228">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
