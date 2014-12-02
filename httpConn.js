@@ -34,7 +34,7 @@
             this._httpConnAry[uid].res.end(dataStr);
     };
     HttpConnMgt.prototype.onTimer = function(){
-        console.log('timer', Object.keys(this._httpConnAry));
+        //console.log('timer', Object.keys(this._httpConnAry));
         var tNow = new Date().getTime();
         for(var p in this._httpConnAry){
             var conn = this._httpConnAry[p];
@@ -46,6 +46,7 @@
     };
     HttpConnMgt.prototype.onConn = function(req, res){
         var dataStr  = '';
+        var curUid = Uuid.v1();
         req.on('error', function (e) {
             console.log('request error', e)
         });
@@ -53,7 +54,6 @@
             dataStr+=buf;
         });
         req.on('end', function(){
-            var curUid = Uuid.v1();
             console.log('conn', curUid);
             this._httpConnAry[curUid] = {req:req, res:res, t:new Date().getTime()};
             var urlObj = Url.parse(req.url, true);
@@ -64,6 +64,7 @@
             if(this._httpConnAry[curUid]){
                 this._httpConnAry[curUid].res.end();
                 delete this._httpConnAry[curUid];
+                this.emit('close', curUid);
             }
         }.bind(this));
     };

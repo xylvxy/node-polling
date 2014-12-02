@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f8f637d-f30b-408a-9e13-1a1a3eb1104a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-uuid/.npmignore" afterPath="$PROJECT_DIR$/node_modules/node-uuid/.npmignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/app.js" afterPath="$PROJECT_DIR$/test/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpConn.js" afterPath="$PROJECT_DIR$/httpConn.js" />
     </list>
     <ignored path="chatServices.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,10 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="httpConn.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/httpConn.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="10" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.6514286" vertical-offset="114" max-vertical-offset="1577">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="26" selection-start="63" selection-end="63" vertical-scroll-proportion="0.04342857" vertical-offset="0" max-vertical-offset="875">
+            <state line="8" column="28" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -69,7 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/chat/IManager.js" />
         <option value="$PROJECT_DIR$/chat/chatSrv.js" />
         <option value="$PROJECT_DIR$/conn/chatClt.js" />
         <option value="$PROJECT_DIR$/conn/IManager.js" />
@@ -84,6 +92,7 @@
         <option value="$PROJECT_DIR$/../test/client.js" />
         <option value="$PROJECT_DIR$/conn/httpConn.js" />
         <option value="$PROJECT_DIR$/node_modules/node-uuid/.npmignore" />
+        <option value="$PROJECT_DIR$/httpConn.js" />
         <option value="$PROJECT_DIR$/test/app.js" />
       </list>
     </option>
@@ -446,10 +455,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="26" selection-start="63" selection-end="63" vertical-scroll-proportion="0.04342857" vertical-offset="0" max-vertical-offset="228">
+        <state line="8" column="28" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpConn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="10" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.6514286" vertical-offset="114" max-vertical-offset="1577">
+          <folding />
         </state>
       </provider>
     </entry>
